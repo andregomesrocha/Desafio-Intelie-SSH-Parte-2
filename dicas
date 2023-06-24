@@ -1,9 +1,9 @@
-<b>Comandos que aprendi nesse desafio:</b>
+Comandos que aprendi nesse desafio:
 
 Find: Ele começa com a palavra find, que alerta o Linux que tudo que vem a seguir é referente a uma busca de arquivo.
 -mtime:  -mtime 1 seleciona arquivos que foram modificados entre 1 e 2 dias atrás. -mtime +1 seleciona arquivos que foram modificados há pelo menos 2 dias. Para obter arquivos modificados há pelo menos 1 dia, use -mtime +0 . No caso do desafio pedia superior a 7 dias então -mtime +7
-<br>
-<b>Quais foram o meus maiores desafios e o que fiz para continuar?</b> 
+
+Quais foram o meus maiores desafios e o que fiz para continuar?
 O maior desafio foi  definir o rotacionamento automático de logs da aplicação (Live), onde devem ser compactados logs anteriores ao dia corrente e remoção de logs com data superior a 7 dias, exigiu a a descoberta do Crontab e como usar, a compactação de um log depois como fazer isso superior a 7 dias exigiu que eu aprendesse o "find mtimes e onde colocar eles de maneira correta, pesquisei e perguntei também, e a frase que eu vou guardar para os próximos desafios e até quando for usar o SSH e o Fee-IPA, é:
 "Não escreva apenas, leia o comando", isso ajudou muito nesse desafio.
 
