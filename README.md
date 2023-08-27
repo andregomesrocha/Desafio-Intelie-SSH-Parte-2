@@ -40,7 +40,7 @@
 
 ![image](https://github.com/andregomesrocha/Desafio-Intelie-SSH-Parte-2/assets/84783787/5db79d6d-8984-46fb-985f-f8bd8d07131a)
 
-<b>CCommands Used to get here:</b>
+<b>Commands Used to get here:</b>
 
 55 16 * * * find /opt/intelie/live/logs -type f -name "live-*.log" -mtime +7 -exec gzip {} \;
 
